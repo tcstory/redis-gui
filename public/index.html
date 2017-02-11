@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Redis GUI</title>
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <main class="app">
+    </main>
+    <article class="login-box">
+        <div class="login-box__card">
+            <header class="login-box__header">Login</header>
+            <div class="row login-box__row">
+                <div class="input-field col s12">
+                    <input id="account" type="text">
+                    <label for="password">Account</label>
+                </div>
+            </div>
+            <div class="row login-box__row">
+                <div class="input-field col s12">
+                    <input id="password" type="password">
+                    <label for="password">Password</label>
+                </div>
+            </div>
+            <div class="login-box__row login-box__row--submit">
+                <button class="btn waves-effect waves-light login-box__submit-btn">Submit
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+        </div>
+    </article>
+    <script src="libs/jq/jquery-3.1.1.min.js"></script>
+    <script src="materialize/js/materialize.js"></script>
+</body>
+</html>
