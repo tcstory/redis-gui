@@ -23,8 +23,8 @@ html, body {
   top: 0; }
 
 .login-box__card {
-  width: 24em;
-  height: 33.75em;
+  width: 30em;
+  height: 31.875em;
   margin: 0 auto;
   background: #ffffff;
   border-radius: 0.25em;
@@ -39,13 +39,13 @@ html, body {
   background: #ed2553;
   border-radius: 0.1875em;
   color: #ffffff;
-  width: 6.25em;
+  width: 8.75em;
   height: 2.125em;
   line-height: 2.125em;
   box-sizing: border-box;
   position: absolute;
   top: -5em;
-  left: calc(50% - 3.125em);
+  left: calc(50% - 4.375em);
   text-align: center; }
 
 .login-box__card::after {
@@ -68,7 +68,7 @@ html, body {
   font-size: 2em;
   font-weight: 600;
   margin-top: 2.5em;
-  padding-left: 3.75em; }
+  padding-left: 1.875em; }
 
 .login-box__row {
   margin-left: 3.75em;
